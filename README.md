@@ -28,15 +28,13 @@ noticias/
 │   ├── package.json
 │   └── tsconfig.json
 │
-└── app/                          ← Arquivos do React Native
-    ├── src/
-    │   ├── services/
-    │   │   └── noticiasService.ts # Chamadas HTTP com Axios
-    │   └── screens/
-    │       ├── ListaScreen.tsx    # Lista de notícias
-    │       ├── DetalheScreen.tsx  # Detalhe da notícia
-    │       └── FormularioScreen.tsx # Criar / Editar
-    └── App.tsx                    # Navegação
+└──
+NoticiasApp/                      ← (gerado pelo CLI)
+├── android/
+├── ios/
+├── node_modules/
+├── src/                          ← arquivos copiados de app/
+└── App.tsx                       ← copiado de app/
 ```
 
 ---
